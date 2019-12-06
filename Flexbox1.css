@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+.card__container {
+    background-color: withe;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1280px;
+}
+
+.card__item {
+    background-color: brown;
+    border: 1px solid green;
+    flex-grow: 1;
+    min-height: 100px;
+    min-width: 100px;
+    margin-bottom: 20px;
+}
+
+.card__item--bigger {
+    flex-grow: 2;
+}
